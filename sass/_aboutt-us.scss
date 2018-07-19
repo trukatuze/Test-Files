@@ -1,9 +1,15 @@
 .aboutt-us{
-  .toodown{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+  //.wrcon{
+  //  @include  respond-to(1024px){
+  //    display: flex;
+  //    justify-content: center;
+  //  }
+  //}
+  //.toodown{
+  //  display: flex;
+  //  justify-content: space-between;
+  //  flex-wrap: wrap;
+  //}
   img{
     display: flex;
     align-items: center;

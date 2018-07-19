@@ -36,9 +36,6 @@ ul{
     color:$color;
     font-size: $size;
     font-weight: bold;
-    @include  respond-to(1024px){
-      text-align: center !important;
-    }
     span{
       color:$color-span;
     }
