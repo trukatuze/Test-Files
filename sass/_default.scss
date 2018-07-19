@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+  font-family: lato;
+  text-decoration: none;
+}
+html,body,#root{
+  width: 100%;
+  height:100%;
+}
+.row{
+  &:before,&:after{
+    display: none;
+  }
+}
+ul{
+  margin-bottom: 0;
+}
+@mixin titles($color:red,$color-span:black,$size:16px){
+  h2,h1{
+    text-align: center;
+    font-family: lato;
+    text-transform: uppercase;
+    color:$color;
+    font-size: $size;
+    font-weight: bold;
+    span{
+      color:$color-span;
+    }
+  }
+}
+@mixin titlesleft($color:red,$color-span:black,$size:16px){
+  h2,h1{
+    text-align: left;
+    font-family: lato;
+    text-transform: uppercase;
+    color:$color;
+    font-size: $size;
+    font-weight: bold;
+    @include  respond-to(1024px){
+      text-align: center !important;
+    }
+    span{
+      color:$color-span;
+    }
+  }
+}
+.section-title{
+  margin-bottom: 30px;
+}
+.section-subtitle{
+  margin-bottom: 50px;
+  p{
+    font-family: ﻿Lato;
+    font-size: 14px;
+    color: rgba(153, 153, 153, 255);
+    text-align: center;
+    line-height: 24px;
+  }
+}
+.section-padding{
+  padding: 100px 0 50px;
+}

@@ -1,0 +1,90 @@
+.aboutt-us{
+  .toodown{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  img{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    @include  respond-to(1024px){
+      display: none;
+    }
+  }
+  .section-title{
+    @include titlesleft(#009dda,#232323,36px);
+  }
+  .section-subleft{
+    margin-bottom: 50px;
+    p{
+      font-family: ﻿Lato;
+      font-size: 14px;
+      color: rgba(153, 153, 153, 255);
+      text-align: left;
+      line-height: 24px;
+    }
+  }
+  .info-sub{
+    font-family: Lato;
+    color:  #373737;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .name-load{
+    font-family: Lato;
+    color:  #444444;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+  }
+  .photoshop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .pecent{
+    font-family: Lato;
+    color:  #444444;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+  }
+  .bord{
+    width: 549px;
+    height: 12px;
+    border: 1px solid black;
+    border-color:  #dddddd;
+    box-sizing: border-box;
+    hr{
+      color: #009dda;
+      background-color: #009dda;
+      height: 3px;
+      position: relative;
+    }
+    .one{
+      width: 423px;
+      top: -17px;
+      left: -60px;
+    }
+    .two{
+      width: 450px;
+      top: -17px;
+      left: -45px;
+    }
+    .three{
+      width: 342px;
+      top: -17px;
+      left: -100px;
+    }
+    .four{
+      width: 489px;
+      top: -17px;
+      left: -26px;
+    }
+  }
+}

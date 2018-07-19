@@ -1,0 +1,68 @@
+.our-products{
+  background: url('../img/bg.png');
+  background-position: center;
+  //background-repeat: no-repeat;
+    &__item{
+      display: flex;
+      margin-bottom: 50px;
+      @include  respond-to(450px){
+        flex-direction: column;
+        align-items: center;
+      }
+      &__img{
+        box-sizing: border-box;
+        img{
+          border-radius: 50%;
+          display: block;
+        }
+      }
+      &__text{
+        margin: 0 0 0 27px;
+        @include  respond-to(450px){
+         text-align: center;
+          margin: 0px;
+        }
+        h2{
+          margin: 15px 0 15px 0;
+          font-family: ﻿Lato;
+          font-size: 14.85115pt;
+          color: rgba(35, 35, 35, 255);
+          text-align: left;
+          text-transform: uppercase;
+          font-weight: bold;
+          @include  respond-to(450px){
+            text-align: center;
+
+          }
+        }
+        span{
+          font-family: ﻿Helvetica;
+          font-size: 13.21717pt;
+          color: rgba(80, 51, 146, 255);
+          text-align: left;
+        }
+        p{
+          margin: 22px 0 0 0;
+          font-family: Lato;
+          color:  #373737;
+          font-size: 13.99px;
+          font-weight: 300;
+          line-height: 20px;
+          text-align: left;
+          transform: scaleX(1.0007);
+        }
+      }
+    }
+  .section-title{
+    @include titles(#ffffff,#ffff00,36px);
+    text-align: center;
+    padding-top: 40px;
+    background:url('../img/triangl.png') no-repeat center;
+    height: 150px;
+    background-size: 100% 100%;
+    margin-bottom: 100px;
+  }
+  .threedot{
+    margin: 100px 0 70px 0;
+  }
+}
