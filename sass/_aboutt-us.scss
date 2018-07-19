@@ -55,7 +55,7 @@
     text-align: right;
   }
   .bord{
-    width: 549px;
+    width: 100%;
     height: 12px;
     border: 1px solid black;
     border-color:  #dddddd;
@@ -69,22 +69,22 @@
     .one{
       width: 79%;
       top: -17px;
-      left: -56px;
+      left: -10%;
     }
     .two{
       width: 90%;
       top: -17px;
-      left: -26px;
+      left: -4%;
     }
     .three{
       width: 69%;
       top: -17px;
-      left: -82px;
+      left: -15%;
     }
     .four{
       width: 92%;
       top: -17px;
-      left: -19px;
+      left: -3%;
     }
   }
 }
